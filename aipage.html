@@ -228,7 +228,7 @@
                         'Authorization': `Bearer ${API_KEY}`
                     },
                     body: JSON.stringify({
-                        model: "gpt-3.5-turbo",
+                        model: "gpt-4o",
                         messages: [
                             {
                                 role: "system",
@@ -240,7 +240,7 @@
                                 content: userMessage
                             }
                         ],
-                        temperature: 0.7
+                        temperature: 0.8
                     })
                 });
 
